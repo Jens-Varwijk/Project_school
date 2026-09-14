@@ -1,0 +1,38 @@
+[
+  { "id": "marker-001", "type": "fish", "name": "Kabeljauw", "seaId": "north-sea", "lat": 56.2, "lon": 3.1 },
+  { "id": "marker-002", "type": "fish", "name": "Haring", "seaId": "north-sea", "lat": 54.8, "lon": -1.5 },
+  { "id": "marker-003", "type": "boat", "name": "Vissersboot De Noordster", "seaId": "north-sea", "lat": 53.5, "lon": 4.2 },
+  { "id": "marker-004", "type": "village", "name": "Urk", "seaId": "north-sea", "lat": 52.6, "lon": 5.6 },
+  { "id": "marker-005", "type": "stop", "name": "Haltehoofd IJmuiden", "seaId": "north-sea", "lat": 52.5, "lon": 4.6 },
+
+  { "id": "marker-006", "type": "fish", "name": "Sprot", "seaId": "baltic-sea", "lat": 58.5, "lon": 20.0 },
+  { "id": "marker-007", "type": "boat", "name": "Vrachtschip Baltica", "seaId": "baltic-sea", "lat": 59.3, "lon": 24.0 },
+  { "id": "marker-008", "type": "village", "name": "Gdańsk", "seaId": "baltic-sea", "lat": 54.35, "lon": 18.65 },
+  { "id": "marker-009", "type": "stop", "name": "Veerhalte Helsinki", "seaId": "baltic-sea", "lat": 60.17, "lon": 24.93 },
+
+  { "id": "marker-010", "type": "fish", "name": "Tonijn", "seaId": "mediterranean-sea", "lat": 37.5, "lon": 15.0 },
+  { "id": "marker-011", "type": "fish", "name": "Sardine", "seaId": "mediterranean-sea", "lat": 41.9, "lon": 8.7 },
+  { "id": "marker-012", "type": "boat", "name": "Zeiljacht Poseidon", "seaId": "mediterranean-sea", "lat": 39.6, "lon": 19.8 },
+  { "id": "marker-013", "type": "village", "name": "Santorini", "seaId": "mediterranean-sea", "lat": 36.39, "lon": 25.46 },
+  { "id": "marker-014", "type": "stop", "name": "Havenhalte Marseille", "seaId": "mediterranean-sea", "lat": 43.3, "lon": 5.37 },
+
+  { "id": "marker-015", "type": "fish", "name": "Ansjovis", "seaId": "black-sea", "lat": 43.0, "lon": 34.5 },
+  { "id": "marker-016", "type": "boat", "name": "Coaster Odessa", "seaId": "black-sea", "lat": 44.5, "lon": 31.0 },
+  { "id": "marker-017", "type": "village", "name": "Sinop", "seaId": "black-sea", "lat": 42.03, "lon": 35.15 },
+
+  { "id": "marker-018", "type": "fish", "name": "Zwaardvis", "seaId": "atlantic-ocean", "lat": 25.0, "lon": -40.0 },
+  { "id": "marker-019", "type": "boat", "name": "Containerschip Atlantic Star", "seaId": "atlantic-ocean", "lat": 10.0, "lon": -30.0 },
+  { "id": "marker-020", "type": "stop", "name": "Meetboei Azoren", "seaId": "atlantic-ocean", "lat": 38.0, "lon": -28.0 },
+
+  { "id": "marker-021", "type": "fish", "name": "Mahi-mahi", "seaId": "pacific-ocean", "lat": 5.0, "lon": -140.0 },
+  { "id": "marker-022", "type": "boat", "name": "Tanker Pacific Dawn", "seaId": "pacific-ocean", "lat": -20.0, "lon": 165.0 },
+  { "id": "marker-023", "type": "stop", "name": "Meetboei Mariana Trog", "seaId": "pacific-ocean", "lat": 12.0, "lon": 145.0 },
+
+  { "id": "marker-024", "type": "fish", "name": "Garnaal", "seaId": "indian-ocean", "lat": -10.0, "lon": 75.0 },
+  { "id": "marker-025", "type": "boat", "name": "Dhow Zanzibar", "seaId": "indian-ocean", "lat": -6.2, "lon": 39.3 },
+  { "id": "marker-026", "type": "village", "name": "Malé", "seaId": "indian-ocean", "lat": 4.17, "lon": 73.5 },
+
+  { "id": "marker-027", "type": "fish", "name": "Poolkabeljauw", "seaId": "arctic-ocean", "lat": 78.0, "lon": 20.0 },
+  { "id": "marker-028", "type": "boat", "name": "IJsbreker Polaris", "seaId": "arctic-ocean", "lat": 82.0, "lon": -30.0 },
+  { "id": "marker-029", "type": "stop", "name": "Onderzoeksstation Barneo", "seaId": "arctic-ocean", "lat": 89.0, "lon": 60.0 }
+]

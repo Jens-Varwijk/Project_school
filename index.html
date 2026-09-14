@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oceaanweb — interactieve 3D-oceaankaart</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <!--
+    Three.js is vendored locally in ./js/vendor/three (r160) so the site has
+    zero external network dependencies and works fully offline on GitHub Pages.
+  -->
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "./js/vendor/three/three.module.js",
+        "three/addons/controls/OrbitControls.js": "./js/vendor/three/OrbitControls.js",
+        "three/addons/utils/BufferGeometryUtils.js": "./js/vendor/three/BufferGeometryUtils.js"
+      }
+    }
+  </script>
+</head>
+<body>
+  <div id="app">
+    <button id="sidebar-toggle" aria-label="Menu">☰</button>
+
+    <aside id="sidebar">
+      <div class="brand">
+        <span class="brand-icon">🌊</span>
+        <span class="brand-name">Oceaanweb</span>
+      </div>
+
+      <div class="search-wrap">
+        <span class="search-icon" aria-hidden="true">🔍</span>
+        <input id="search-input" type="search" placeholder="Zoek zee, vis of land..." autocomplete="off" />
+      </div>
+
+      <div class="filters">
+        <div class="filter-group">
+          <span class="filter-label">Type</span>
+          <div class="chip-group">
+            <label class="chip"><input type="checkbox" class="filter-kind" value="sea" checked /> Zee</label>
+            <label class="chip"><input type="checkbox" class="filter-kind" value="ocean" checked /> Oceaan</label>
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <span class="filter-label">Oppervlakte (km²)</span>
+          <div class="range-row">
+            <input id="area-min" type="number" min="0" placeholder="min" />
+            <span class="range-sep">–</span>
+            <input id="area-max" type="number" min="0" placeholder="max" />
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <label class="filter-label" for="depth-class">Diepteklasse</label>
+          <select id="depth-class">
+            <option value="">Alle dieptes</option>
+            <option value="ondiep">Ondiep</option>
+            <option value="gemiddeld">Gemiddeld</option>
+            <option value="diep">Diep</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="search-results" class="results hidden"></div>
+
+      <div class="layers">
+        <h3>Kaartlagen</h3>
+        <label class="layer-row"><input type="checkbox" class="layer-toggle" data-layer="fish" checked /><span>🐟 Vissen</span></label>
+        <label class="layer-row"><input type="checkbox" class="layer-toggle" data-layer="boat" checked /><span>⛵ Boten</span></label>
+        <label class="layer-row"><input type="checkbox" class="layer-toggle" data-layer="village" checked /><span>🏘 Dorpen</span></label>
+        <label class="layer-row"><input type="checkbox" class="layer-toggle" data-layer="stop" checked /><span>📍 Haltes</span></label>
+      </div>
+    </aside>
+
+    <main id="globe-area">
+      <div id="globe-container"></div>
+      <p id="hint">Sleep om te draaien · scroll om te zoomen · klik op een zee of oceaan</p>
+
+      <section id="info-panel" class="hidden" aria-live="polite">
+        <button id="info-close" aria-label="Sluiten">✕</button>
+        <span id="info-kind" class="badge"></span>
+        <h2 id="info-title"></h2>
+        <p id="info-desc"></p>
+        <dl id="info-stats"></dl>
+        <h4>Aangrenzende landen / continenten</h4>
+        <ul id="info-countries"></ul>
+        <h4>Vissoorten</h4>
+        <ul id="info-fish"></ul>
+      </section>
+    </main>
+  </div>
+
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>

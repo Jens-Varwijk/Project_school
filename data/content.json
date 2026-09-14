@@ -1,0 +1,74 @@
+{
+  "north-sea": {
+    "areaKm2": 570000,
+    "avgDepthM": 90,
+    "maxDepthM": 700,
+    "depthClass": "gemiddeld",
+    "adjacentCountries": ["Nederland", "België", "Duitsland", "Denemarken", "Noorwegen", "Verenigd Koninkrijk"],
+    "fishSpecies": ["Kabeljauw", "Haring", "Schol", "Makreel", "Garnaal"],
+    "description": "De Noordzee is een relatief ondiepe randzee van de Atlantische Oceaan, ingesloten door Noordwest-Europa. Ze is van groot economisch belang voor visserij, scheepvaart en offshore-energie."
+  },
+  "baltic-sea": {
+    "areaKm2": 377000,
+    "avgDepthM": 55,
+    "maxDepthM": 459,
+    "depthClass": "ondiep",
+    "adjacentCountries": ["Zweden", "Finland", "Estland", "Letland", "Litouwen", "Polen", "Duitsland", "Denemarken"],
+    "fishSpecies": ["Haring", "Sprot", "Zalm", "Snoekbaars", "Kabeljauw"],
+    "description": "De Oostzee is een brakwaterzee met een lage zoutgehalte door de vele instromende rivieren. Het is een van de grootste brakwatergebieden ter wereld."
+  },
+  "mediterranean-sea": {
+    "areaKm2": 2500000,
+    "avgDepthM": 1500,
+    "maxDepthM": 5267,
+    "depthClass": "diep",
+    "adjacentCountries": ["Spanje", "Frankrijk", "Italië", "Griekenland", "Turkije", "Egypte", "Libië", "Tunesië", "Marokko"],
+    "fishSpecies": ["Tonijn", "Sardine", "Zeebaars", "Zwaardvis", "Ansjovis"],
+    "description": "De Middellandse Zee verbindt Europa, Afrika en Azië en staat bekend om haar rijke biodiversiteit en eeuwenoude handelsroutes."
+  },
+  "black-sea": {
+    "areaKm2": 436000,
+    "avgDepthM": 1250,
+    "maxDepthM": 2212,
+    "depthClass": "diep",
+    "adjacentCountries": ["Turkije", "Bulgarije", "Roemenië", "Oekraïne", "Rusland", "Georgië"],
+    "fishSpecies": ["Ansjovis", "Tarbot", "Makreel", "Sprot"],
+    "description": "De Zwarte Zee is grotendeels afgesloten van de oceaan en heeft daardoor een uniek gelaagd watersysteem met een zuurstofarme diepzee."
+  },
+  "atlantic-ocean": {
+    "areaKm2": 106460000,
+    "avgDepthM": 3646,
+    "maxDepthM": 8486,
+    "depthClass": "diep",
+    "adjacentCountries": ["Noord-Amerika", "Zuid-Amerika", "Europa", "Afrika"],
+    "fishSpecies": ["Kabeljauw", "Tonijn", "Haring", "Zwaardvis"],
+    "description": "De Atlantische Oceaan is de op een na grootste oceaan ter wereld en scheidt Amerika van Europa en Afrika. De Middenatlantische Rug loopt er in noord-zuidrichting doorheen."
+  },
+  "pacific-ocean": {
+    "areaKm2": 165250000,
+    "avgDepthM": 4280,
+    "maxDepthM": 10935,
+    "depthClass": "diep",
+    "adjacentCountries": ["Azië", "Australië", "Noord-Amerika", "Zuid-Amerika"],
+    "fishSpecies": ["Tonijn", "Zalm", "Zwaardvis", "Mahi-mahi"],
+    "description": "De Stille Oceaan is de grootste en diepste oceaan ter wereld en bevat de Mariana Trog, het diepste punt van de aardse oceanen."
+  },
+  "indian-ocean": {
+    "areaKm2": 70560000,
+    "avgDepthM": 3741,
+    "maxDepthM": 7290,
+    "depthClass": "diep",
+    "adjacentCountries": ["Afrika", "Azië", "Australië"],
+    "fishSpecies": ["Tonijn", "Garnaal", "Zwaardvis", "Sardine"],
+    "description": "De Indische Oceaan is de op twee na grootste oceaan en wordt sterk beïnvloed door het moessonklimaat, wat de stromingen jaarlijks doet omkeren."
+  },
+  "arctic-ocean": {
+    "areaKm2": 14060000,
+    "avgDepthM": 1205,
+    "maxDepthM": 5567,
+    "depthClass": "gemiddeld",
+    "adjacentCountries": ["Rusland", "Canada", "Groenland (Denemarken)", "Noorwegen", "Verenigde Staten"],
+    "fishSpecies": ["Poolkabeljauw", "Zalm", "Heilbot"],
+    "description": "De Noordelijke IJszee is de kleinste en ondiepste oceaan en grotendeels bedekt met zee-ijs, dat door klimaatverandering snel afneemt."
+  }
+}
